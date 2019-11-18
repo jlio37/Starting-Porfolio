@@ -1,0 +1,464 @@
+html, body {
+	background: White;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', -apple-system, '.SFNSText-Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p, h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+}
+a {
+	outline: none;
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+}
+table, th, td {
+   border: 0;
+   border-collapse: collapse;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+.clear {
+	clear: both;
+	height: 0px;
+}
+.right {
+	float: right;
+}
+
+.huge {
+	position: relative;
+	height: 70%;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.huge img {
+	width: 100%;
+	height: auto;
+}
+.none {
+	height: 60px !important;
+}
+
+.tilt {
+	background-image: url('/crowdtilt/img/ct-1.jpg');
+}
+.fitness {
+	background-image: url('/fitness/img/one-1.jpg');
+}
+.balH {
+	background-image: url('/balharbour/img/bal-1.jpg');
+}
+.speck {
+	background-image: url('/speck/img/speck-1.jpg');
+}
+.amex {
+	background-image: url('/amex/img/amex-1.jpg');
+}
+.smb {
+	background-image: url('/smb/img/smb-1.jpg');
+}
+.shine {
+	background-image: url('/shine/img/shine-1.jpg');
+}
+.talkk {
+	background-image: url('/talkk/img/talkk-1.jpg');
+}
+
+.nBox {
+	position: fixed;
+	top: 0px;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	background: url('/img/tile.png');
+}
+.icon {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 15px 0;
+
+}
+.icon img {
+	width: 30px;
+	height: 30px;
+	margin: 0 15px 0 40px;
+}
+.icon a {
+	display: block;
+	float: left;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #04130d;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+.icon a:hover {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+.icon a.nav {
+	float: right;
+	margin-right: 40px;
+}
+
+.show {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 10% 0;
+}
+
+.wrapper {
+	padding: 0 40px;
+	
+}
+
+.copy {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding-bottom: 5%;
+	text-align: left;
+}
+.copy p.title {
+	padding-bottom: 20px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	color: #04130d;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+.copy p {
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 30px;
+	color: #04130d;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+.title img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.copy p.ask {
+	color: #FFFFFF;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+
+.single {
+	width: 100%;
+}
+.single img {
+	width: 100%;
+	max-width: 944px;
+	height: auto;
+	margin: 0 auto;
+}
+.black {
+	background: #000000;
+	padding: 10% 0;
+}
+.taller {
+	margin: 10% 0;
+}
+
+.half {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 10% 0;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 0;
+	overflow: hidden;
+}
+.half img {
+	display: inline-block;
+	margin: 5% 2.5%;
+	width: 40%;
+	height: auto;
+	vertical-align: top;
+}
+
+.thirds {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 10% 0;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 0;
+	overflow: hidden;
+}
+.thirds img {
+	display: inline-block;
+	margin: 5% 5% 5% 0;
+	width: 30%;
+	height: auto;
+	vertical-align: top;
+}
+.thirds img:last-child {
+	margin-right: 0;
+}
+.thirds p {
+	white-space: normal;
+}
+
+.stacked {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 10% 0;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 0;
+}
+.stacked img {
+	width: 75%;
+	height: auto;
+	margin: 0 auto 5% auto;
+}
+.stacked p {
+	white-space: normal;
+}
+
+.pushed {
+	padding: 10% 0 !important;
+}
+
+.cutoff {
+	padding: 0 !important;
+}
+
+.twins {
+	margin: 0;
+	padding: 0;
+}
+.twins img {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+.vBox {
+	width: 100%;
+	background: #000000;
+	padding: 10% 0;
+}
+.myVideo {
+	position: relative;
+	width: 50%;
+	min-width: 320px;
+	max-width: 380px;
+	margin: 0 auto;
+}
+.myVideo img {
+	width: 100%;
+	height: auto;
+}
+video {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	width: 100%    !important;
+	height: auto   !important;
+}
+.myVideo button {
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -50px;
+	z-index: 10;
+	width: 100px;
+	height: 100px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.myVideo button.hideMe {
+	display: none;
+}
+.myVideo button.showMe {
+	display: block;
+}
+
+.footer {
+	clear: both;
+	width: 100%;
+	padding: 5% 0;
+	text-align: center;
+	background: #000000;
+}
+.footer a {
+	display: inline-block;
+	font-size: 20px;
+	color: #FFFFFF;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	padding: 0 2px 4px 2px;
+	border-bottom: 1px solid #9E9E9E;
+}
+.footer a:hover {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.folioBox {
+	display: table;
+	width: 90%;
+	margin: 0;
+	padding-top: 5%;
+}
+.folioBox a {
+	display: table-cell;
+	width: 47.5%;
+	background: #262626;
+	padding-bottom: 5%;
+}
+.folioBox a:hover {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	cursor: pointer;
+}
+
+.folioBreak {
+	display: table-cell;
+	width: 5%;
+}
+
+.folio {
+	width: 90%;
+}
+.folio img {
+	width: 20%;
+	height: auto;
+	margin-bottom: 10%;
+}
+.folio p {
+	width: 80%;
+	margin: 0 10%;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+.folio p.tag {
+	font-weight: 500;
+	color: #FFFFFF;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+  text-align: center;
+}
+
+
+
+
+/*screen settings*/
+@media only screen and (max-width: 568px) {
+
+	.copy {
+		width: 50%;
+	}
+	.footer {
+		padding: 8% 0;
+	}
+	.footer a {
+		font-size: 16px;
+	}
+	.folioBox {
+		display: block;
+		padding-top: 0;
+	}
+	.folioBreak {
+		display: none;
+	}
+	.folioBox a {
+		display: block;
+		width: 50%;
+		margin-top: 5%;
+	}
+	.folio img {
+		margin-bottom: 5%;
+	}
+	.folio p {
+		margin: 0 5%;
+		width: 70%;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+	.icon img {
+		margin: 0 15px 0 20px;
+	}
+	.icon a.nav {
+		margin-right: 20px;
+	}
+	.wrapper {
+		padding: 0 20px;
+	}
+	.copy {
+		width: 50%;
+	}
+	.copy p.title {
+		padding-bottom: 14px;
+		font-size: 10px;
+		line-height: 10px;
+	}
+	.copy p, .folio p {
+		font-size: 10px;
+		line-height: 24px;
+	}
+	.thirds {
+		overflow: visible;
+	}
+	.thirds img {
+		display: block;
+		margin: 5% auto;
+		width: 70%;
+	}
+	.thirds img:last-child {
+		margin: 5% auto;
+	}
+	.twins img {
+		width: 100%;
+	}
+	.footer {
+		padding: 15% 0;
+	}
+
+}
